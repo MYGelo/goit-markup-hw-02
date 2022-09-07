@@ -4,6 +4,14 @@
     <meta charset="utf-8" />
     <meta name="Web Studio" content="test" />
     <title>Web Studio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -11,32 +19,34 @@
       <a href="./index.html" class="logo"> Web <span class="logo-header">Studio</span> </a>
       <!-- navigation-->
       <nav>
-        <ul>
+        <ul class="nav-main">
           <li>
-            <a href="" class="nav-main">Студія</a>
+            <a href="" class="link">Студія</a>
           </li>
           <li>
-            <a target="_blank" href="portfolio.html" class="nav-main">Портфоліо</a>
+            <a target="_blank" href="portfolio.html" class="link">Портфоліо</a>
           </li>
           <li>
-            <a href="" class="nav-main">Контакти</a>
+            <a href="" class="link">Контакти</a>
           </li>
         </ul>
       </nav>
-      <!-- контакти-->        <li><a href="mailto:info@devstudio.com" class="nav-contact">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a></li> class="nav-contact"
+      <!-- контакти-->
+      <ul>
+        <li><a href="mailto:info@devstudio.com" class="nav-contact">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
       <!-- hero -->
       <div>
-        <section>
+        <section class="hero-style">
           <h1>Ефективні рішення для вашого бізнесу</h1>
-          <button type="button">Замовити послугу</button>
+          <a href="" class="button primery">Замовити послугу</a>
         </section>
       </div>
-      <!-- О нас -->
-      <section>
+      <!-- about us -->
+      <section class="about-us">
         <h2>О нас</h2>
         <ul class="section">
           <li>
@@ -101,21 +111,21 @@
       </section>
     </main>
     <!-- подвал-->
-    <footer>
+    <footer class="footor">
       <a href="./index.html" class="logo"> Web <span class="logo-footer">Studio</span> </a>
       <address>
-        <ul>
+        <ul class="address">
           <li>
-            <!--  обязательно делать тег <address>м. Київ, пр-т Лесі Українки, 26</address> или можно так? -->
             <a
               target="_blank"
               href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
+              class="link"
             >
               м. Київ, пр-т Лесі Українки, 26
             </a>
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
