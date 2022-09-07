@@ -3,7 +3,7 @@
   --accent-color: #2196f3;
   --second-color: #757575;
   --primery-white-color: #ffffff;
-  --button-second-backgund: #F5F4FA;
+  --button-second-backgund: #f5f4fa;
 }
 
 body {
@@ -11,8 +11,6 @@ body {
   background-color: #ffffff;
 
   font-family: Roboto, inheril;
-
-  
 }
 /*Button*/
 .button {
@@ -39,19 +37,19 @@ body {
 .button.second {
   color: var(--accent-color);
   background-color: var(--button-second-backgund);
-  border-color:var(--button-second-backgund);
+  border-color: var(--button-second-backgund);
 }
 .button.second:hover,
 .button.second:focus {
-  color: var(--second-color);
+  color: var(--primery-white-color);
   background-color: var(--accent-color);
   border-color: var(--accent-color);
 }
 
 .box {
-width: 370px;
-height: 404px;
-background: #FFFFFF;
+  width: 370px;
+  height: 404px;
+  background: #ffffff;
 }
 .box:hover,
 .box:focus {
@@ -86,14 +84,13 @@ background: #FFFFFF;
   letter-spacing: 0.03em;
 }
 /*NAVIGATION*/
-.nav-main .link{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+.nav-main .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 
   color: var(--main-color);
-
 }
 .nav-main .link:hover,
 .nav-main .link:focus {
@@ -102,7 +99,6 @@ letter-spacing: 0.02em;
 .nav-main .link.current {
   color: var(--accent-color);
 }
-
 
 /* contact`s*/
 .nav-contact {
@@ -115,25 +111,21 @@ letter-spacing: 0.02em;
 
 /* hero*/
 .hero-style {
-font-family: Roboto;
-font-size: 44px;
-line-height: 1.4;
-font-weight: 900;
-letter-spacing: 0.06em;
-text-align: center;
-
+  font-family: Roboto;
+  font-size: 44px;
+  line-height: 1.4;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-align: center;
 }
 
 /* about us */
 .about-us {
-
 }
+
 .section .section-text {
-  
   color: var(--second-color);
 }
-
-
 
 /*footor*/
 .footor {
@@ -142,19 +134,17 @@ text-align: center;
 .address .link {
   color: rgba(255, 255, 255, 0.6);
 
-font-family: Roboto , inheril;
-font-style: normal;
-font-size: 14px;
-line-height: 1.7;
-font-weight: 400;
-letter spacing: 0.03em;
+  font-family: Roboto, inheril;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
 }
 
 .address .link:hover,
 .address .link:focus {
-color: var(--primery-white-color);
+  color: var(--primery-white-color);
 
-font-style: regular;
-letter-spacing: 0.03em;
+  font-style: regular;
+  letter-spacing: 0.03em;
 }
-
