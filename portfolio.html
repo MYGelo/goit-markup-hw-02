@@ -4,11 +4,23 @@
     <meta charset="utf-8" />
     <meta name="Web Studio" content="test" />
     <title>portfolio</title>
+    <style>
+      li {
+        list-style-type: none; /* Убираем маркеры */
+      }
+      ul {
+        margin-left: 0; /* Отступ слева в браузере IE и Opera */
+        padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+      }
+      a {
+        text-decoration: none; /* Отменяем подчеркивание у ссылки */
+      }
+    </style>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
 
@@ -38,68 +50,99 @@
       </ul>
     </header>
     <main>
-      <div>
-        <h1>блок навигации</h1>
-        <a href="" class="button second">Усі</a>
-        <a href="" class="button second">Веб-сайти</a>
-        <a href="" class="button second">Додатки</a>
-        <a href="" class="button second">Дизайн</a>
-        <a href="" class="button second">Маркетинг</a>
-      </div>
-      <!--Технокряк -->
-      <div class="box">
-        <img src="./images/portfolio/img-one.jpg" width="370" alt="peolpe" />
-        <h2 class="h">Технокряк</h2>
-        <p class="link">Веб-сайт</p>
-      </div>
-      <!--Постер New Orlean vs Golden Star-->
-      <div class="box">
-        <img src="./images/portfolio/img-two.jpg" width="370" alt="NewOrleanvsGoldenStar" />
-        <h2 class="h">Постер New Orlean vs Golden Star</h2>
-        <p class="link">Дизайн</p>
-      </div>
-      <!--Ресторан Seafood-->
-      <div class="box">
-        <img src="./images/portfolio/img-three.jpg" width="370" alt="seafood" />
-        <h2 class="h">Ресторан Seafood</h2>
-        <p class="link">Додаток</p>
-      </div>
-      <!--Проєкт Prime-->
-      <div class="box">
-        <img src="./images/portfolio/img-four.jpg" width="370" alt="prime" />
-        <h2 class="h">Проєкт Prime</h2>
-        <p class="link">Маркетинг</p>
-      </div>
-      <!--Проєкт Boxes-->
-      <div class="box">
-        <img src="./images/portfolio/img-five.jpg" width="370" alt="boxes" />
-        <h2 class="h">Проєкт Boxes</h2>
-        <p class="link">Додатки</p>
-      </div>
-      <!--Inspiration has no Borders-->
-      <div class="box">
-        <img src="./images/portfolio/img-six.jpg" width="370" alt="Inspiration has no Borders" />
-        <h2 class="h">Inspiration has no Borders</h2>
-        <p class="link">Веб-сайти</p>
-      </div>
-      <!--Видання Limited Edition-->
-      <div class="box">
-        <img src="./images/portfolio/img-seven.jpg" width="370" alt="LM" />
-        <h2 class="h">Видання Limited Edition</h2>
-        <p class="link">Дизайн</p>
-      </div>
-      <!--Проєкт LAB-->
-      <div class="box">
-        <img src="./images/portfolio/img-eight.jpg" width="370" alt="lab" />
-        <h2 class="h">Проєкт LAB</h2>
-        <p class="link">Маркетинг</p>
-      </div>
-      <!--Growing Business-->
-      <div class="box">
-        <img src="./images/portfolio/img-nine.jpg" width="370" alt="Growing Business" />
-        <h2 class="h">Growing Business</h2>
-        <p class="link">Додаток</p>
-      </div>
+      <section>
+        <h1></h1>
+        <div>
+          <h2>блок навигации</h2>
+          <a href="" type="button" class="button second">Усі</a>
+          <a href="" type="button" class="button second">Веб-сайти</a>
+          <a href="" type="button" class="button second">Додатки</a>
+          <a href="" type="button" class="button second">Дизайн</a>
+          <a href="" type="button" class="button second">Маркетинг</a>
+        </div>
+        <!--Технокряк -->
+        <div class="box">
+          <ul>
+            <li><img src="./images/portfolio/img-one.jpg" width="370" alt="peolpe" /></li>
+            <li><h3 class="h">Технокряк</h3></li>
+            <li><p class="link">Веб-сайт</p></li>
+          </ul>
+        </div>
+        <!--Постер New Orlean vs Golden Star-->
+        <div class="box">
+          <ul>
+            <li>
+              <img src="./images/portfolio/img-two.jpg" width="370" alt="NewOrleanvsGoldenStar" />
+            </li>
+            <li><h3 class="h">Постер New Orlean vs Golden Star</h3></li>
+            <li><p class="link">Дизайн</p></li>
+          </ul>
+        </div>
+        <!--Ресторан Seafood-->
+        <div class="box">
+          <ul>
+            <li><img src="./images/portfolio/img-three.jpg" width="370" alt="seafood" /></li>
+            <li><h3 class="h">Ресторан Seafood</h3></li>
+            <li><p class="link">Додаток</p></li>
+          </ul>
+        </div>
+        <!--Проєкт Prime-->
+        <div class="box">
+          <ul>
+            <li><img src="./images/portfolio/img-four.jpg" width="370" alt="prime" /></li>
+            <li><h3 class="h">Проєкт Prime</h3></li>
+            <li><p class="link">Маркетинг</p></li>
+          </ul>
+        </div>
+        <!--Проєкт Boxes-->
+        <div class="box">
+          <ul>
+            <li><img src="./images/portfolio/img-five.jpg" width="370" alt="boxes" /></li>
+            <li><h3 class="h">Проєкт Boxes</h3></li>
+            <li><p class="link">Додатки</p></li>
+          </ul>
+        </div>
+        <!--Inspiration has no Borders-->
+        <div class="box">
+          <ul>
+            <li>
+              <img
+                src="./images/portfolio/img-six.jpg"
+                width="370"
+                alt="Inspiration has no Borders"
+              />
+            </li>
+            <li><h3 class="h">Inspiration has no Borders</h3></li>
+            <li><p class="link">Веб-сайти</p></li>
+          </ul>
+        </div>
+        <!--Видання Limited Edition-->
+        <div class="box">
+          <ul>
+            <li><img src="./images/portfolio/img-seven.jpg" width="370" alt="LM" /></li>
+            <li><h2 class="h">Видання Limited Edition</h2></li>
+            <li><p class="link">Дизайн</p></li>
+          </ul>
+        </div>
+        <!--Проєкт LAB-->
+        <div class="box">
+          <ul>
+            <li><img src="./images/portfolio/img-eight.jpg" width="370" alt="lab" /></li>
+            <li><h2 class="h">Проєкт LAB</h2></li>
+            <li><p class="link">Маркетинг</p></li>
+          </ul>
+        </div>
+        <!--Growing Business-->
+        <div class="box">
+          <ul>
+            <li>
+              <img src="./images/portfolio/img-nine.jpg" width="370" alt="Growing Business" />
+            </li>
+            <li><h2 class="h">Growing Business</h2></li>
+            <li><p class="link">Додаток</p></li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer class="footor">
       <a href="./index.html" class="logo"> Web <span class="logo-footer">Studio</span> </a>

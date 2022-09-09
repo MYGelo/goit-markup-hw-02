@@ -53,7 +53,7 @@ body {
 }
 .box:hover,
 .box:focus {
-  background-color: var(--second-color);
+  background-color: rosybrown;
 }
 
 .box .h {
@@ -69,6 +69,7 @@ body {
 
   color: #757575;
 }
+
 /*LOGO*/
 .logo {
   color: var(--accent-color);
