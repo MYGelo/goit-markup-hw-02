@@ -35,7 +35,6 @@ body {
   border-color: var(--accent-color);
 }
 .button.second {
-  color: var(--accent-color);
   background-color: var(--button-second-backgund);
   border-color: var(--button-second-backgund);
 }
