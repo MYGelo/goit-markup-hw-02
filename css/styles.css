@@ -81,8 +81,6 @@ body {
 }
 .logo-header {
   color: var(--main-color);
-
-  font-family: Oleo Script, inheril;
   font-size: 26px;
   font-weight: 400;
   line-height: 1.4;
@@ -90,8 +88,6 @@ body {
 }
 .logo-footer {
   color: var(--primery-white-color);
-
-  font-family: Oleo Script, inheril;
   font-size: 26px;
   font-weight: 400;
   line-height: 1.4;
