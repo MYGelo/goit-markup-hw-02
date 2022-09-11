@@ -11,7 +11,7 @@ body {
   color: var(--main-color);
   background-color: var(--primery-white-color);
 
-  font-family: Roboto, inheril;
+  font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
 .list {
@@ -22,7 +22,7 @@ body {
 .logo {
   color: var(--accent-color);
 
-  font-family: Raleway, inheril;
+  font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
@@ -111,7 +111,7 @@ body {
   color: var(--main-color);
   background-color: var(--primery-white-colorwhite);
 
-  font-family: inherit;
+  font-family: sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -238,26 +238,26 @@ color: var(--main-color);
 }
 
 /* address*/
-.address li {
-  list-style: none;
+.address{
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+font-weight: 400;
+
+
+list-style: none;
+text-decoration: none;
 }
-
-.address .link {
-  color: rgba(255, 255, 255, 0.6);
-
-  font-family: Roboto, inheril;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  font-weight: 400;
-
+.address a:hover,
+.address a:focus {
+  color: var(--accent-color);
+}
+.address-link {
+  color: var(--primery-white-color);
   text-decoration: none;
 }
-
-.address .link:hover,
-.address .link:focus {
-  color: var(--primery-white-color);
-
-  font-style: regular;
-  letter-spacing: 0.03em;
+.address-contact {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
 }
